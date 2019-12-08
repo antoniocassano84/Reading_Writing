@@ -18,7 +18,7 @@ public class Message {
             }
         }
         empty = true;
-        //notifyAll();
+        notifyAll();
         System.out.println(ThreadColor.ANSI_BLUE +
                 "DEBUG: ("+ Thread.currentThread().getName() +
                 ") Message \"" + message + "\" has been read" +
